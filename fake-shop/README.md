@@ -22,7 +22,16 @@ Aplicação Python com PostgreSQL, CI/CD GitHub Actions e GitOps ArgoCD.
 3. Pipeline atualiza manifest no Azure DevOps
 4. ArgoCD detecta mudança e faz deploy no k3d
 
+## Resultado
+
+3 ambientes (dev/hml/prd) rodando no ArgoCD:
+
+![ArgoCD](images/argocd-applications.png)
+
+Status: **Healthy** | **Synced**
+
 ## Estrutura
+
 fake-shop/
 ├── src/                    # Código Python
 ├── .github/workflows/      # CI/CD
