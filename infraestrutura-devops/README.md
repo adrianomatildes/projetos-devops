@@ -118,5 +118,9 @@ A estrutura segue o padrão Micro-stacks:
 | Isolamento de Network       | Completo (pub/priv) |
 | Container Orchestration     | EKS gerenciado      |
 
-'## Autor:'
-### DevOps Engineer | AWS | Kubernetes | Terraform
+## Autor
+
+**Adriano Matildes**  
+DevOps Engineer | AWS | Kubernetes | Terraform
+
+[LinkedIn](https://linkedin.com/in/adrianomatildes) | [GitHub](https://github.com/adrianomatildes)
