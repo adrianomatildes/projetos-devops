@@ -18,27 +18,9 @@ Este projeto implementa uma arquitetura cloud completa seguindo as melhores prá
 
 ## Arquitetura da Infraestrutura
 
-infraestrutura-devops/
-├── ambientes/                    # Configurações por ambiente
-│   ├── dev/                      # Desenvolvimento
-│   ├── hml/                      # Homologação
-│   └── prd/                      # Produção
-├── modules/                      # Módulos reutilizáveis
-│   ├── vpc/                      # VPC, CIDR, DNS
-│   ├── subnet-pub/               # Subnets públicas
-│   ├── subnet-priv/              # Subnets privadas
-│   ├── internet-gateway/         # IGW para acesso externo
-│   ├── nat-gateway/              # NAT para subnets privadas
-│   ├── eip/                      # Elastic IPs
-│   ├── route-table/              # Tabelas de roteamento
-│   ├── route-table-priv/         # Roteamento privado
-│   ├── route-table-association-pub/   # Associação público
-│   ├── route-table-association-priv/  # Associação privado
-│   ├── eks/                      # Kubernetes gerenciado
-│   └── ecr/                      # Container Registry
-├── terragrunt.hcl                # Configuração raiz (DRY)
-└── README.md                     # Documentação
+![Arquitetura da Infraestrutura](images/arquitetura-infraestrutura.png)
 
+Estrutura de diretórios organizada por ambiente e módulos reutilizáveis.
 
 ---
 
