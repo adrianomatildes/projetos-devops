@@ -39,19 +39,9 @@ Estrutura de diretórios organizada por ambiente e módulos reutilizáveis.
 
 ## Estrutura de Network
 
-┌─────────────────────────────────────────┐
-│              VPC (10.0.0.0/16)          │
-│  ┌─────────────────────────────────┐    │
-│  │         Subnets Públicas        │    │
-│  │    (Load Balancers, Bastion)    │    │
-│  │         + Internet Gateway      │    │
-│  └─────────────────────────────────┘    │
-│  ┌─────────────────────────────────┐    │
-│  │        Subnets Privadas         │    │
-│  │   (EKS Workers, Databases)      │    │
-│  │         + NAT Gateway           │    │
-│  └─────────────────────────────────┘    │
-└─────────────────────────────────────────┘
+![Estrutura de Network](images/estrutura-network.png)
+
+Arquitetura de network com VPC isolada, subnets públicas para exposição externa e privadas para workloads seguros.
 
 
 ---
